@@ -1,21 +1,21 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:wght@100..900&display=swap');
 
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: pink;
     font-family: "Noto Sans", sans-serif;
 
     color: black;
 }
 
-#header{
+#header {
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -29,27 +29,30 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-     height: 100px;
+    height: 100px;
 
 }
-nav ul{
+
+nav ul {
     display: flex;
     justify-content: center;
-    
+
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
-    margin: 0 23px  ;
+    margin: 0 23px;
     margin-top: 10px;
 
 }
-.left{
+
+.left {
     font-size: 2rem;
     font-weight: bold;
-    
+
 }
 
-.btn{
+.btn {
     margin-left: 35px;
     justify-content: center;
     border: none;
@@ -64,15 +67,45 @@ nav ul li{
 
 }
 
+.sections {
+    display: flex;
+    justify-content: space-around;
 
+}
 
+.leftSection {
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
 
+.name {
+    color: rgb(227, 52, 181);
+}
 
+.works {
+    color: rgb(227, 52, 181);
+}
+
+.secondBtn {
+    background-color: rgb(227, 52, 181);
+    color: white;
+    padding: 10px 35px;
+    margin-top: 25px;
+    border: none;
+    box-shadow: black 5px 5px;
+    font-size: medium;
+}
+
+a {
+  padding-right: 10px;
+    color: black;
+    font-weight: lighter;
+    font-size: medium;
     
-    
-
-
-
-
-
-
+}
+.links{
+    margin-top: 100px;
+}
