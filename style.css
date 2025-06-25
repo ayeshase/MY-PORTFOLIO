@@ -43,14 +43,14 @@ body {
     font-size: 25px;
 }
 .content-section .content p{
-    margin-top: 20px;
+    margin-top: 35px;
    font-size: 20px;
 } 
 .content-section .buttons .btn-left{
-    margin-top: 20px;
+    margin-top: 15px;
  background-color: pink;
      color:  black;
-    padding: 9px 35px;
+    padding: 10px 35px;
     margin-top: 25px;
     border: none;
     box-shadow: black 5px 5px;
@@ -60,7 +60,7 @@ body {
 
 }
 .content-section .buttons .btn-right{
-     margin-top: 20px;
+     margin-top: 15px;
  background-color: pink;    
  color: black;
     padding: 10px 35px;
@@ -70,7 +70,10 @@ body {
     font-size: medium;
 }
  
-
+.content-section h3{
+    margin-top: 35px;
+    font-size: 25px;
+}
 
 
 header {
